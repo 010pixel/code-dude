@@ -1,0 +1,273 @@
+{
+   "sitename":"Code Dude",
+   "siteurl":"{{ROOT_DIR_URL}}",
+   "copyright":"&copy; Code Dude 2013",
+   "content_dir":"content/",
+   "err_pages_dir":"content/",
+   "err_pages":{
+      "404":{
+         "title":"404 - File not found",
+         "desc":"The page you are looking for doesn't exist.",
+         "content":"error-404.html"
+      }
+   },
+   "menu":{
+      "home":{
+         "title":"Home",
+         "url":"{{BASE_FILE_URL}}/home",
+         "content":"home.html",
+         "desc":"Code-Dude is a code repository. It includes code samples in PHP, JavaScript, HTML, CSS, jQuery, Google Chrome Apps, Wordpress plugins etc."
+      },
+      "about":{
+         "title":"About",
+         "url":"{{BASE_FILE_URL}}?page=about",
+         "content":"about.html",
+         "desc":"about us description"
+      },
+      "contact":{
+         "title":"Contact",
+         "url":"{{BASE_FILE_URL}}?page=contact",
+         "content":"contact.html",
+         "desc":""
+      },
+      "wp":{
+         "title":"Wordpress Plugins",
+         "url":"#",
+         "desc":""
+      },
+      "chrome":{
+         "title":"Google Chrome",
+         "url":"#",
+         "desc":""
+      },
+      "css":{
+         "title":"CSS",
+         "url":"#",
+         "desc":""
+      },
+      "jquery":{
+         "title":"jQuery",
+         "url":"#",
+         "desc":""
+      },
+      "extra":{
+         "title":"Extra",
+         "url":"#",
+         "desc":""
+      },
+      "external":{
+         "title":"External",
+         "url":"#",
+         "desc":""
+      },
+      "login":{
+         "title":"Login",
+         "url":"{{SERVER_ROOT_URL}}:2083",
+         "desc":""
+      }
+   },
+   "featured" : [
+	   "{{BASE_FILE_URL}}?page=crazy-cms", "{{BASE_FILE_URL}}?page=about", "{{BASE_FILE_URL}}?page=ios7"
+	],
+   "projects":{
+      "wp":[
+         {
+            "title":"Crazy CMS",
+            "url":"{{BASE_FILE_URL}}/crazy-cms",
+            "desc":"",
+            "keywords":"",
+            "version":"",
+            "date":"",
+            "download":""
+         },
+         {
+            "title":"Custom Post Type Permissions",
+            "url":"{{BASE_FILE_URL}}/post-type-permissions",
+            "desc":"",
+            "keywords":"",
+            "version":"",
+            "date":"",
+            "download":""
+         },
+         {
+            "title":"Image Upload MetaBox",
+            "url":"{{BASE_FILE_URL}}/image-upload-metabox",
+            "desc":"upload image metabox description",
+            "keywords":"",
+            "version":"",
+            "date":"",
+            "download":""
+         },
+         {
+            "title":"Template List Metabox",
+            "url":"{{BASE_FILE_URL}}?page=template-list-metabox",
+            "desc":"",
+			"content":"portfolio.html",
+            "keywords":"",
+            "version":"",
+            "date":"",
+            "download":""
+         },
+         {
+            "class":"divider"
+         },
+         {
+            "title":"READY TO USE",
+            "class":"nav-header"
+         },
+         {
+            "title":"Portfolio",
+            "url":"{{BASE_FILE_URL}}/portfolio",
+            "desc":"",
+			"content":"portfolio.html",
+            "keywords":"",
+            "version":"",
+            "date":"",
+            "download":""
+         }
+      ],
+      "css":[
+         {
+            "title":"Family Tree",
+            "url":"{{BASE_FILE_URL}}/familytree",
+            "desc":"",
+            "content":"family.html",
+            "php":"true",
+            "keywords":"",
+            "version":"",
+            "date":"",
+            "download":""
+         }
+      ],
+      "chrome":[
+         {
+            "title":"010 Pixel Posts",
+            "url":"{{BASE_FILE_URL}}/010pixel-posts",
+            "desc":"This extension shows live posts from http://www.010pixel.com.",
+            "keywords":"",
+            "version":"",
+            "date":"",
+            "download":"http://bit.ly/chrome-010pixel"
+         },
+         {
+            "title":"Google Chrome Tabs",
+            "url":"{{BASE_FILE_URL}}/010pixel-tabs",
+            "desc":"This extension shows all Windows and Tabs at one glance. Tabs can be refreshed, closed or activated from this extension.",
+            "keywords":"",
+            "version":"",
+            "date":"",
+            "visit":"http://bit.ly/chrome-010pixel",
+            "download":"http://bit.ly/chrome-010pixel"
+         }
+      ],
+      "jquery":[
+         {
+            "title":"Easy Scroll",
+            "url":"{{BASE_FILE_URL}}/easy-scroll",
+            "desc":"",
+            "keywords":"",
+            "version":"",
+            "date":"",
+            "download":""
+         },
+         {
+            "title":"iFrame",
+            "url":"{{BASE_FILE_URL}}/iframe",
+            "desc":"",
+            "keywords":"",
+            "version":"",
+            "date":"",
+            "download":""
+         },
+         {
+            "title":"Interest Calculator",
+            "url":"{{BASE_FILE_URL}}/interest-calculator",
+            "desc":"",
+            "keywords":"",
+            "version":"",
+            "date":"",
+            "download":""
+         },
+         {
+            "title":"rkSlider",
+            "url":"{{BASE_FILE_URL}}/rkslider-jq",
+            "desc":"",
+            "keywords":"",
+            "version":"",
+            "date":"",
+            "download":""
+         }
+      ],
+      "extra":[
+         {
+            "title":"Database Transfer Tool",
+            "url":"{{BASE_FILE_URL}}/dbtransfer",
+            "desc":"",
+            "keywords":"",
+            "version":"",
+            "date":"",
+            "download":""
+         },
+         {
+            "title":"iTunes Search",
+            "url":"{{BASE_FILE_URL}}/itunes-search",
+			 "content":"itunes-search.html",
+            "desc":"An AngularJS application fetching data from iTunes, which different templates for different types of media.",
+            "keywords":"itunes-search, angularjs, apple, itunes, podcast",
+            "version":"",
+            "date":"",
+            "visit":"http://code-dude.com/projects/itunes/",
+            "download":""
+         },
+         {
+            "title":"iOS 7",
+            "url":"{{BASE_FILE_URL}}/ios7",
+            "desc":"",
+            "keywords":"",
+            "version":"",
+            "date":"",
+            "download":""
+         },
+         {
+            "title":"Resume (using JSON)",
+            "url":"{{BASE_FILE_URL}}/resume",
+            "desc":"",
+            "keywords":"",
+            "version":"",
+            "date":"",
+            "download":""
+         },
+         {
+            "title":"010 Pixel",
+            "url":"{{BASE_FILE_URL}}/010pixel",
+            "desc":"",
+            "keywords":"",
+            "version":"",
+            "date":"",
+            "download":""
+         },
+         {
+            "title":"Useful PHP Constants",
+            "url":"{{BASE_FILE_URL}}/php",
+			"content":"php.html",
+            "desc":"PHP Constants which can be very usuful to identify different parts of the URL.",
+            "keywords":"",
+            "version":"",
+            "date":"",
+            "download":"#"
+         }
+      ],
+      "external":[
+         {
+            "title":"Icon Finder",
+            "url":"{{BASE_FILE_URL}}/iconfinder",
+            "desc":"A website where you can download icons in many formats including glyph, outline, flat, photorealistic, 3D, handdrawn, cartoon, pixel, smooth",
+            "keywords":"",
+            "version":"",
+            "date":"",
+			"visit":"https://www.iconfinder.com/",
+            "download":""
+         }
+      ]
+   }
+}
