@@ -3,6 +3,7 @@
    "siteurl":"{{ROOT_DIR_URL}}",
    "copyright":"&copy; Code Dude 2013",
    "content_dir":"content/",
+   "library_dir":"libs/",
    "err_pages_dir":"content/",
    "err_pages":{
       "404":{
@@ -164,6 +165,8 @@
          {
             "title":"Easy Scroll",
             "url":"{{BASE_FILE_URL}}/easy-scroll",
+            "content":"easy-scroll.php",
+            "php":"true",
             "desc":"",
             "keywords":"",
             "version":"",
@@ -173,6 +176,8 @@
          {
             "title":"iFrame",
             "url":"{{BASE_FILE_URL}}/iframe",
+            "content":"iframe.php",
+            "php":"true",
             "desc":"",
             "keywords":"",
             "version":"",
