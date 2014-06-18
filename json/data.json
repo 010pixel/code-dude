@@ -282,6 +282,16 @@
             "date":"",
 			"visit":"http://www.jssor.com/",
             "download":""
+         },
+         {
+            "title":"CDN for Libraries",
+            "url":"{{BASE_FILE_URL}}/cdn",
+            "desc":"An open source CDN for Javascript and CSS sponsored by CloudFlare that hosts everything from jQuery and Modernizr to Bootstrap. Speed up your site with cdnjs!",
+            "keywords":"",
+            "version":"",
+            "date":"",
+			"visit":"http://cdnjs.com/",
+            "download":""
          }
       ]
    }
