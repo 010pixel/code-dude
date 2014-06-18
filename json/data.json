@@ -272,6 +272,16 @@
             "date":"",
 			"visit":"https://www.iconfinder.com/",
             "download":""
+         },
+         {
+            "title":"jQuery Image Slideshows",
+            "url":"{{BASE_FILE_URL}}/image-slideshow",
+            "desc":"A website where you can download many types of image galleries and carousel sliders",
+            "keywords":"",
+            "version":"",
+            "date":"",
+			"visit":"http://www.jssor.com/",
+            "download":""
          }
       ]
    }
