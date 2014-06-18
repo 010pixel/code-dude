@@ -272,6 +272,7 @@
             "date":"",
 			"visit":"https://www.iconfinder.com/",
             "download":""
+<<<<<<< HEAD
          },
          {
             "title":"jQuery Image Slideshows",
@@ -292,6 +293,8 @@
             "date":"",
 			"visit":"http://cdnjs.com/",
             "download":""
+=======
+>>>>>>> parent of 408c106... Update-20140618
          }
       ]
    }
